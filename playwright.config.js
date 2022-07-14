@@ -12,7 +12,7 @@ const config = {
     baseURL: 'https://dev.digixt.ae',
     trace: 'on',
     browserName : 'chromium',
-    headless : false,
+    headless : true,
     screeenshot : 'on'
   },
 };
