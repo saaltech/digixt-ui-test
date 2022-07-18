@@ -5,14 +5,14 @@ const { CommonFunc } = require('../src/utils/CommonFunc');
 
 test.describe('Login Page Test Cases', () => {
 
-    let commonFun = null;
+    let comFun = null;
     let loginPage = null;
 
     test.beforeEach(async ({ page }) => {
-        commonFun = new CommonFunc(page);
+        comFun = new CommonFunc(page);
         loginPage = new LoginPage(page);
         console.log("===========>>>>>>>>Opening Fresh Browser window for New Test===========>>>>>>>>");
-        commonFun.openNewPageWithBaseUrl();
+        comFun.openNewPageWithBaseUrl();
     });
 
     test('Should login Successfully', async ({page}) => {
@@ -44,7 +44,7 @@ test.describe('Login Page Test Cases', () => {
     });
 
     test.afterEach(async() =>{
-        commonFun = null;
+        comFun = null;
         loginPage = null;
     })
 
