@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Jul 18 16:50:38 GST 2022","Mon Jul 18 16:50:41 GST 2022","2169","","","Dasboard Page Test Cases with Admin Role for Digixt Connect Layers","","","Admin should be able to open Kafak Component",""
+"failed","Mon Jul 18 16:50:23 GST 2022","Mon Jul 18 16:50:30 GST 2022","6956","","","Dasboard Page Test Cases with Admin Role for Digixt Connect Layers","","","Admin should be able to open Nifi Component",""
+"passed","Mon Jul 18 16:50:41 GST 2022","Mon Jul 18 16:50:41 GST 2022","568","","","Dasboard Page Test Cases with Admin Role for Digixt Connect Layers","","","Admin should be able to open Debezium Component",""
+"passed","Mon Jul 18 16:50:31 GST 2022","Mon Jul 18 16:50:38 GST 2022","7298","","","Dasboard Page Test Cases with Admin Role for Digixt Connect Layers","","","Admin should be able to open Spark Component",""
